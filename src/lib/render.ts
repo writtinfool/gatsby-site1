@@ -167,6 +167,12 @@ function rehypeNewtreeLayout() {
       const href: string = n.properties?.href || '';
       const m = href.match(/^https?:\/\/\/(.*)$/);
       if (m) n.properties.href = '/' + m[1].replace(/^\/+/, '');
+      // Normalize US phone links to the international form (tel:+1XXXXXXXXXX).
+      if (/^tel:/i.test(n.properties.href)) {
+        const digits = n.properties.href.replace(/\D/g, '');
+        if (digits.length === 10) n.properties.href = `tel:+1${digits}`;
+        else if (digits.length === 11 && digits.startsWith('1')) n.properties.href = `tel:+${digits}`;
+      }
       const fixed: string = n.properties.href;
       if (fixed.startsWith('/')) addClass(n, 'cta-link');
       if (fixed.startsWith('tel:')) addClass(n, 'tel-link');
