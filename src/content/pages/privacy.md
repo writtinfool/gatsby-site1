@@ -7,6 +7,8 @@ description: "How Newtree Senior Transition Services collects, uses, shares, and
 
 ### Effective date: November 5, 2026
 
+---
+
 Newtree Senior Transition Services ("Newtree," "we," "us," or "our") helps seniors, families, and professional advisors in Northern California with senior living placement, real estate and liquidity solutions, and downsizing and relocation. Our work is personal, and we know you may be sharing sensitive information with us during a difficult time. This policy explains what information we collect, how we use it, who we share it with, and the choices and rights you have.
 
 This policy applies to transitions.newtreecap.com, our online forms, and the information you give us by phone, text, email, or in person.

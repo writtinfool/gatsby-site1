@@ -487,3 +487,9 @@ a.cta-link:hover { background: var(--green-700); color: #fff; transform: transla
 .page-privacy .feature-list > li::before { display: none; }
 .page-privacy .feature-list > li > strong:first-child { display: inline; font-family: var(--font-sans); font-size: inherit; font-weight: 650; margin: 0; }
 .site-footer ul { align-content: start; }
+
+/* Privacy hero: title + effective date only, left column, so the photo's tree stays visible */
+.page-privacy .hero-inner { grid-template-columns: minmax(0, 1fr); }
+.page-privacy .hero-body { background: none; border: 0; padding: 0; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45); }
+.page-privacy .hero-body h3 { border: 0; padding: 0; margin: 0; font-size: 1.15rem; color: rgba(255, 255, 255, 0.92); }
+.page-privacy .hero { padding: clamp(80px, 11vw, 150px) 0; }
