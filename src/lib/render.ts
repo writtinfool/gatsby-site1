@@ -18,7 +18,7 @@ import { visit, SKIP } from 'unist-util-visit';
 import { toString } from 'hast-util-to-string';
 import { h } from 'hastscript';
 import YAML from 'yaml';
-import { zohoForms } from '../config/site';
+import { zohoForms, site } from '../config/site';
 
 type Node = any;
 
@@ -272,7 +272,17 @@ function rehypeNewtreeLayout() {
 
         if (idx === 0 && kids.some((k) => isEl(k, 'h1'))) {
           cls.push('hero');
-          return h('section', { className: cls }, [h('div.container.hero-inner', kids)]);
+          const title = kids.filter((k) => isEl(k, 'h1'));
+          const rest = kids.filter((k) => !isEl(k, 'h1'));
+          return h('section', { className: cls }, [
+            h('div.container.hero-inner', [
+              h('div.hero-title', title),
+              h('div.hero-body', [
+                ...rest,
+                h('a.btn.btn-hero', { href: site.phoneTollFree.href }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z' })]), site.phoneTollFree.label]),
+              ]),
+            ]),
+          ]);
         }
 
         // Merge consecutive blockquotes into one callout.
