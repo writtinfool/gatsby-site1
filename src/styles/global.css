@@ -441,6 +441,7 @@ a.cta-link:hover { background: var(--green-700); color: #fff; transform: transla
 .site-footer a { color: rgba(247, 241, 230, 0.9); text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 .footer-base { border-top: 1px solid rgba(255, 255, 255, 0.12); padding-top: 20px; padding-bottom: 28px; font-size: 0.88rem; }
+.footer-base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
 .footer-base p { margin: 0; }
 @media (max-width: 760px) { .footer-grid { grid-template-columns: 1fr; } }
 
@@ -470,3 +471,17 @@ a.cta-link:hover { background: var(--green-700); color: #fff; transform: transla
   .brand-sub { font-size: 0.68rem; margin-top: 2px; }
   .header-inner { gap: 12px; min-height: 72px; }
 }
+
+/* ---------------- Privacy policy (long-form reading layout) ---------------- */
+.page-privacy .hero { padding: clamp(48px, 7vw, 88px) 0; }
+.page-privacy .hero .btn-hero { display: none; }
+.page-privacy .block:not(.hero) { padding: clamp(32px, 4vw, 48px) 0; }
+.page-privacy .block:not(.hero) > .container { max-width: 820px; }
+.page-privacy .block h2 { font-size: clamp(1.35rem, 1.15rem + 0.7vw, 1.75rem); }
+.page-privacy .block > .container > p { color: var(--ink); font-size: 1.05rem; max-width: none; }
+.page-privacy .block ul:not(.contact-list) { padding-left: 1.3em; margin: 0 0 1.1em; }
+.page-privacy .block ul:not(.contact-list) li { margin-bottom: 0.45em; }
+.page-privacy .feature-list { display: block; margin-top: 0; }
+.page-privacy .feature-list > li { background: none; border: 0; box-shadow: none; padding: 0; color: var(--ink); }
+.page-privacy .feature-list > li::before { display: none; }
+.page-privacy .feature-list > li > strong:first-child { display: inline; font-family: var(--font-sans); font-size: inherit; font-weight: 650; margin: 0; }

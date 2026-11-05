@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import { renderPage } from '../lib/render';
 
 export function getStaticPaths() {
-  return ['placement', 'real-estate', 'downsizing', 'for-professionals'].map((slug) => ({
+  return ['placement', 'real-estate', 'downsizing', 'for-professionals', 'privacy'].map((slug) => ({
     params: { slug },
   }));
 }
