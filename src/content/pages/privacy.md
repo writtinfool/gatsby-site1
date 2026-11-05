@@ -132,7 +132,9 @@ To ask a question or make a privacy request, please contact:
 
 **Harold Ricker**  
 *Certified Senior Transition Specialist*  
-**Newtree Senior Transition Services**
+**Newtree Senior Transition Services**  
+3824 Jacobs Ave. Spc 27  
+Eureka, CA 95501
 
 - **Phone (Toll-Free):** [(855) 496-1910](tel:8554961910)
 - **Direct Mobile / Text:** [(707) 502-2191](tel:7075022191)

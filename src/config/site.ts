@@ -11,6 +11,13 @@ export const site = {
   phoneTollFree: { label: '(855) 496-1910', href: 'tel:8554961910' },
   phoneMobile: { label: '(707) 502-2191', href: 'tel:7075022191' },
   email: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },
+  address: {
+    street: '3824 Jacobs Ave. Spc 27',
+    city: 'Eureka',
+    state: 'CA',
+    zip: '95501',
+    country: 'US',
+  },
 };
 
 // Navigation order follows the site architecture in the spec.
