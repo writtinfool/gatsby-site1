@@ -3,8 +3,8 @@
 
 export const site = {
   name: 'Newtree Senior Transition Services',
-  shortName: 'Newtree',
-  tagline: 'Senior Transition Services',
+  shortName: 'Newtree Senior Transitions',
+  tagline: 'Services',
   region: 'Northern California',
   // Set this to the production domain once it is known (used for canonical URLs).
   url: 'https://newtree-senior-transitions.pages.dev',
