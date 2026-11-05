@@ -164,7 +164,7 @@ strong { font-weight: 650; color: var(--green-900); }
   position: relative; overflow: hidden; color: #fff;
   background-color: #0E2434;
   background-image:
-    linear-gradient(90deg, rgba(10, 26, 38, 0.55) 0%, rgba(10, 26, 38, 0.25) 50%, rgba(10, 26, 38, 0.05) 100%),
+    linear-gradient(90deg, rgba(10, 26, 38, 0.38) 0%, rgba(10, 26, 38, 0.08) 45%, rgba(10, 26, 38, 0) 100%),
     image-set(url('/images/hero.webp') type('image/webp'), url('/images/hero.jpg') type('image/jpeg'));
   background-size: cover; background-position: center 62%; background-repeat: no-repeat;
   padding: clamp(72px, 10vw, 140px) 0;
@@ -172,7 +172,7 @@ strong { font-weight: 650; color: var(--green-900); }
 @media (max-width: 900px) {
   .hero {
     background-image:
-      linear-gradient(180deg, rgba(10, 26, 38, 0.55) 0%, rgba(10, 26, 38, 0.35) 100%),
+      linear-gradient(180deg, rgba(10, 26, 38, 0.45) 0%, rgba(10, 26, 38, 0.15) 100%),
       image-set(url('/images/hero-900.webp') type('image/webp'), url('/images/hero-900.jpg') type('image/jpeg'));
     background-position: 72% center;
   }
@@ -181,12 +181,12 @@ strong { font-weight: 650; color: var(--green-900); }
 .hero-title h1 { color: #fff; margin: 0; }
 .hero-body > :last-child { margin-bottom: 0; }
 .hero-body {
-  background: linear-gradient(90deg, rgba(10, 26, 38, 0.72) 0%, rgba(10, 26, 38, 0.6) 100%);
+  background: linear-gradient(90deg, rgba(10, 26, 38, 0.78) 0%, rgba(10, 26, 38, 0.7) 100%);
   border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 18px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
   padding: clamp(22px, 3vw, 36px);
 }
-.hero-title h1 { text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35); }
+.hero-title h1 { text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), 0 4px 32px rgba(0, 0, 0, 0.45); }
 .hero h2 { color: #fff; font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem); font-weight: 500; }
 .hero h2::before { display: none; }
 .hero h3 {
