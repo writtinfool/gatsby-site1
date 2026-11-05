@@ -33,16 +33,19 @@ npm run build     # outputs to dist/
 npm run preview
 ```
 
-## Deploy on Cloudflare Pages
+## Deploy on Cloudflare
 
-Connect this repository in Cloudflare → Workers & Pages → Create → Pages, then:
+The project is connected as a **Worker with static assets** (Workers & Pages →
+Connect to Git). Settings → Build:
 
-- **Framework preset:** Astro
+- **Root directory:** `/`
 - **Build command:** `npm run build`
-- **Build output directory:** `dist`
-- **Node version:** 22 (from `.node-version`)
+- **Deploy command:** `npx wrangler deploy` (the default)
+- **Production branch:** `master`
 
-Or from your machine: `npm run build && npx wrangler pages deploy dist`.
+`wrangler.toml` tells Cloudflare to upload `./dist`. The `name` in
+`wrangler.toml` must match the Worker's name in the dashboard. Every push or
+merge to `master` builds and deploys automatically.
 
 ### Custom domain: transitions.newtreecap.com
 
