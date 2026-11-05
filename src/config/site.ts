@@ -7,7 +7,7 @@ export const site = {
   tagline: 'Services',
   region: 'Northern California',
   // Set this to the production domain once it is known (used for canonical URLs).
-  url: 'https://newtree-senior-transitions.pages.dev',
+  url: 'https://transitions.newtreecap.com',
   phoneTollFree: { label: '(855) 496-1910', href: 'tel:8554961910' },
   phoneMobile: { label: '(707) 502-2191', href: 'tel:7075022191' },
   email: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },

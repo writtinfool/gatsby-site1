@@ -44,5 +44,11 @@ Connect this repository in Cloudflare → Workers & Pages → Create → Pages, 
 
 Or from your machine: `npm run build && npx wrangler pages deploy dist`.
 
-Once you have a custom domain, update `url` in `src/config/site.ts` and `site`
-in `astro.config.mjs` (canonical URLs).
+### Custom domain: transitions.newtreecap.com
+
+The site is configured for `https://transitions.newtreecap.com` (`url` in
+`src/config/site.ts` and `site` in `astro.config.mjs`). In Cloudflare →
+your Pages project → **Custom domains** → **Set up a domain**, enter
+`transitions.newtreecap.com`. If newtreecap.com's DNS is on Cloudflare the
+record is created for you; otherwise add a `CNAME` record named
+`transitions` pointing to `<your-project>.pages.dev` at your DNS provider.
