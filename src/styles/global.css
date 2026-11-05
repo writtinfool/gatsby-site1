@@ -159,18 +159,34 @@ strong { font-weight: 650; color: var(--green-900); }
 }
 
 /* ---------------- Hero ---------------- */
-/* To add a photo: put it in public/images/ and set  .hero { --hero-image: url('/images/hero.jpg'); }  */
+/* Photo: public/images/hero(-900).{webp,jpg} — oak on golden hills at dusk. */
 .hero {
   position: relative; overflow: hidden; color: #fff;
-  background:
-    linear-gradient(100deg, rgba(14, 36, 52, 0.92) 0%, rgba(20, 55, 80, 0.82) 55%, rgba(19, 96, 126, 0.70) 100%),
-    var(--hero-image, none) center / cover no-repeat,
-    linear-gradient(140deg, #1F4F70 0%, #0E2434 100%);
-  padding: clamp(64px, 9vw, 128px) 0;
+  background-color: #0E2434;
+  background-image:
+    linear-gradient(90deg, rgba(10, 26, 38, 0.82) 0%, rgba(10, 26, 38, 0.55) 50%, rgba(10, 26, 38, 0.28) 100%),
+    image-set(url('/images/hero.webp') type('image/webp'), url('/images/hero.jpg') type('image/jpeg'));
+  background-size: cover; background-position: center 62%; background-repeat: no-repeat;
+  padding: clamp(72px, 10vw, 140px) 0;
+}
+@media (max-width: 900px) {
+  .hero {
+    background-image:
+      linear-gradient(180deg, rgba(10, 26, 38, 0.78) 0%, rgba(10, 26, 38, 0.62) 100%),
+      image-set(url('/images/hero-900.webp') type('image/webp'), url('/images/hero-900.jpg') type('image/jpeg'));
+    background-position: 72% center;
+  }
 }
 .hero-inner { position: relative; z-index: 1; display: grid; gap: 28px 64px; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; }
 .hero-title h1 { color: #fff; margin: 0; }
 .hero-body > :last-child { margin-bottom: 0; }
+.hero-body {
+  background: linear-gradient(90deg, rgba(10, 26, 38, 0.72) 0%, rgba(10, 26, 38, 0.5) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 18px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  padding: clamp(22px, 3vw, 36px);
+}
+.hero-title h1 { text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35); }
 .hero h2 { color: #fff; font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem); font-weight: 500; }
 .hero h2::before { display: none; }
 .hero h3 {
@@ -180,7 +196,7 @@ strong { font-weight: 650; color: var(--green-900); }
 .block.hero .hero-body > p { color: rgba(255, 255, 255, 0.82); font-size: 1.05rem; }
 .hero strong { color: #fff; }
 .hero a { color: #fff; }
-.hero a.btn-hero {
+.hero a.btn-hero { text-shadow: none;
   margin-top: 12px; background: #fff; color: var(--green-900); box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
 .hero a.btn-hero:hover { background: var(--cream-100); color: var(--green-800); transform: translateY(-1px); }
