@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { renderPage } from '../lib/render';
+
+const page = await renderPage('index');
+---
+
+<Base title={page.title} description={page.description} slug={page.slug}>
+  <Fragment set:html={page.html} />
+</Base>

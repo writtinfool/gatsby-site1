@@ -1,0 +1,114 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/lexend';
+import '../styles/global.css';
+import { site, nav } from '../config/site';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+}
+const { title, description, slug } = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#1F4F70" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: site.name,
+      url: site.url,
+      telephone: '+1-855-496-1910',
+      email: 'harold@newtree-capital.net',
+      areaServed: 'Northern California',
+      founder: { '@type': 'Person', name: 'Harold Ricker' },
+    })} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label={`${site.name} — home`}>
+          <img class="brand-mark" src="/images/logo-mark.png" width="79" height="44" alt="" />
+          <span class="brand-text">
+            <span class="brand-name">{site.shortName}</span>
+            <span class="brand-sub">{site.tagline}</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Menu</span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul>
+            {nav.filter((n) => n.slug !== 'index').map((n) => (
+              <li><a href={n.href} aria-current={n.slug === slug ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+          <a class="btn btn-call" href={site.phoneTollFree.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z" fill="currentColor"/></svg>
+            {site.phoneTollFree.label}
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class={`page page-${slug}`}>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-mark" src="/images/logo-mark-white.png" width="101" height="56" alt="" />
+          <p class="footer-brand">{site.name}</p>
+          <p class="footer-region">{site.region}</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            {nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}
+          </ul>
+        </nav>
+        <ul class="footer-contact">
+          <li><a href={site.phoneTollFree.href}>{site.phoneTollFree.label}</a></li>
+          <li><a href={site.phoneMobile.href}>{site.phoneMobile.label}</a></li>
+          <li><a href={site.email.href}>{site.email.label}</a></li>
+        </ul>
+      </div>
+      <div class="container footer-base">
+        <p>© {year} {site.name}</p>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.querySelector<HTMLButtonElement>('.nav-toggle');
+      const nav = document.getElementById('site-nav');
+      btn?.addEventListener('click', () => {
+        const open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        nav?.classList.toggle('open', !open);
+      });
+    </script>
+  </body>
+</html>

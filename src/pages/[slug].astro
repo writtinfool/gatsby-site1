@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { renderPage } from '../lib/render';
+
+export function getStaticPaths() {
+  return ['placement', 'real-estate', 'downsizing', 'for-professionals'].map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const page = await renderPage(Astro.params.slug as string);
+---
+
+<Base title={page.title} description={page.description} slug={page.slug}>
+  <Fragment set:html={page.html} />
+</Base>
