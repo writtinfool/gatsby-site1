@@ -1,50 +1,48 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Newtree Senior Transition Services — website
 
-## 🚀 Quick start
+Static [Astro](https://astro.build) site deployed to **Cloudflare Pages**.
 
-1.  **Create a Gatsby site.**
+## Pages
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+| URL | Content file |
+| --- | --- |
+| `/` | `src/content/pages/index.md` (Main Landing Page) |
+| `/placement` | `src/content/pages/placement.md` |
+| `/real-estate` | `src/content/pages/real-estate.md` |
+| `/downsizing` | `src/content/pages/downsizing.md` |
+| `/for-professionals` | `src/content/pages/for-professionals.md` |
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+The markdown files are byte-for-byte copies of the approved source files.
+**Edit copy only in those files.** All design is applied at build time by
+`src/lib/render.ts` (sections, cards, diagrams redrawn as HTML from the
+words inside the ASCII boxes, link fixes) and `src/styles/global.css`.
+Nav, footer, and site settings live in `src/config/site.ts`.
 
-2.  **Start developing.**
+## Zoho forms
 
-    Navigate into your new site’s directory and start it up.
+Each page ends with a `<div id="zoho-…">` container. To turn a form on, paste
+its Zoho Forms iframe URL into `zohoForms` in `src/config/site.ts`. Empty
+entries are hidden, so the pages look complete without them.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Develop
 
-3.  **Open the code and start customizing!**
+```sh
+npm install
+npm run dev       # http://localhost:4321
+npm run build     # outputs to dist/
+npm run preview
+```
 
-    Your site is now running at http://localhost:8000!
+## Deploy on Cloudflare Pages
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Connect this repository in Cloudflare → Workers & Pages → Create → Pages, then:
 
-4.  **Learn more**
+- **Framework preset:** Astro
+- **Build command:** `npm run build`
+- **Build output directory:** `dist`
+- **Node version:** 22 (from `.node-version`)
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Or from your machine: `npm run build && npx wrangler pages deploy dist`.
 
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
-# gatsby-site1
+Once you have a custom domain, update `url` in `src/config/site.ts` and `site`
+in `astro.config.mjs` (canonical URLs).
