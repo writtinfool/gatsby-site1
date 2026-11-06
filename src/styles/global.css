@@ -492,3 +492,9 @@ a.cta-link:hover { background: var(--green-700); color: #fff; transform: transla
 .block.intro .container > p { font-size: clamp(1.1rem, 1rem + 0.35vw, 1.25rem); line-height: 1.75; color: var(--ink); }
 .block.intro .container > p:first-child { font-size: clamp(1.2rem, 1.05rem + 0.5vw, 1.4rem); color: var(--green-900); }
 .page-privacy .intro p, .page-privacy .block.intro .container > p:first-child { font-size: 1.1rem; color: var(--ink); }
+
+/* Paragraph spacing inside callouts; four-item card lists as a 2 x 2 grid */
+.callout-card p + p { margin-top: 0.9em; }
+@media (min-width: 761px) {
+  .feature-list.count-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

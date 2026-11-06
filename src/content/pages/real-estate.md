@@ -26,6 +26,14 @@ At **Newtree Senior Transition Services**, we specialize in real-world property 
 
 ---
 
+> ### 🛡️ Medi-Cal and Your Primary Home
+
+> **You may not need to sell.** Under Medi-Cal rules, a primary residence is generally an exempt asset when determining eligibility for long-term care or IHSS, for example when the owner intends to return home or a spouse or qualifying relative lives there.
+>
+> With California's asset limit back in place ($130,000 for an individual in 2026, currently scheduled to drop to $21,000 on July 1, 2027) and a 30-month look-back on transfers, timing matters. Keep in mind that **selling an exempt home turns it into cash that does count** toward the limit. Before listing the home or accepting any offer, we encourage families to review the plan with their elder law attorney. When a sale is the right step, to fund private care, clear debts, or relocate, we help you sell as-is, quickly and transparently, on a timeline that fits your attorney's plan.
+
+---
+
 ## Our Three Real Estate Pathways
 
 ### Option A: Direct "As-Is" Investor Purchase (Primary & Most Common Solution)

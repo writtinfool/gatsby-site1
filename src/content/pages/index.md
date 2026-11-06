@@ -81,9 +81,9 @@ For attorneys, social workers, case managers, and senior living care directors, 
 
 | Referral Partner | The Bottleneck You Face | How Newtree Solves It |
 | :---- | :---- | :---- |
-| **Senior Living Directors** | Prospective residents are ready for care, but their capital is tied up in an un-renovated home full of personal belongings. | We acquire the home "as-is" or provide bridge solutions, freeing up capital so the resident can move into your community immediately. |
-| **Social Workers & Case Managers** | Safe discharge planning is delayed because the home is unsafe, or Medi-Cal / financial transitions feel overwhelming to the family. | We step in to handle placement options (Medi-Cal and private pay), home clearing, and moving logistics under tight deadlines. |
-| **Elder Law & Probate Attorneys** | Estates require fast liquidity, asset protection, or resolution of real property without dragging families into costly home renovations. | We provide direct, transparent cash acquisition options and estate liquidations that satisfy fiduciary and probate requirements. |
+| **Senior Living Directors** | Prospective residents are ready for private-pay or Board & Care placement, but their capital is tied up in an un-renovated home full of personal belongings. | We acquire the home "as-is" or arrange bridge funding, freeing up capital so the resident can move into your community immediately. |
+| **Social Workers & Case Managers** | Safe discharge stalls because Assisted Living Waiver (ALW) placements are not available in most rural Northern California counties, and setting up IHSS at home feels overwhelming to families. | We help assess whether aging in place with IHSS is workable. When 24-hour care is needed, we find available local Board & Care or RCFE placements and handle home clearing and moving logistics under tight discharge timelines. |
+| **Elder Law & Probate Attorneys** | Clients face the reinstated Medi-Cal asset limit ($130,000 in 2026, scheduled to fall to $21,000 on July 1, 2027) and a 30-month look-back, while real property still needs to be resolved or care funded. | We provide direct "as-is" cash acquisition options, bridge funding, and estate liquidations, timed to your client's Medi-Cal plan and documented to satisfy fiduciary and probate requirements. |
 
 👉 [Visit Our Professional Partner Portal →](http:///for-professionals)
 
@@ -94,6 +94,7 @@ For attorneys, social workers, case managers, and senior living care directors, 
 * **Certified Senior Transition Specialist (CSTS):** Led by Harold Ricker, bringing specialized expertise to senior housing dynamics, ethical downsizing, and real estate structuring.  
 * **Full Compliance & Transparency:** Clear disclosures of all roles, compensation structures, and buyer relationships prior to engagement.  
 * **Client-Centric Integrity:** We work at the family's pace, prioritizing safety and well-being over transactions.
+* **We Work Alongside Your Advisors:** Newtree does not provide legal, tax, or Medi-Cal eligibility advice. We coordinate with your elder law attorney, financial advisor, and care team. Program figures on this site are current as of November 2026 and can change.
 
 ---
 
