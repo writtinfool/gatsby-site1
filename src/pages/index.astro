@@ -1,10 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
+import MomsHouseBanner from '../components/MomsHouseBanner.astro';
 import { renderPage } from '../lib/render';
 
 const page = await renderPage('index');
+// Place the certification banner just before the closing contact section.
+const marker = '<section class="block contact"';
+const cut = page.html.indexOf(marker);
+const before = cut >= 0 ? page.html.slice(0, cut) : page.html;
+const after = cut >= 0 ? page.html.slice(cut) : '';
 ---
 
 <Base title={page.title} description={page.description} slug={page.slug}>
-  <Fragment set:html={page.html} />
+  <Fragment set:html={before} />
+  <MomsHouseBanner />
+  <Fragment set:html={after} />
 </Base>

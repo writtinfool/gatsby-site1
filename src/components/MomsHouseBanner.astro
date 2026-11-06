@@ -1,0 +1,61 @@
+---
+// Mom's House Senior Transition Specialist banner (home page).
+// Per the Mom's House marketing kit: full-width section, the image links to
+// momshouse.com, and the copy and logos are not changed. On small screens the
+// banner image's text would be unreadably small, so the kit's allowed
+// "recreate this section" option is used there: the same badge and the same
+// copy, word for word.
+const href = 'https://www.momshouse.com';
+const title = 'Mom’s House Senior Transition Specialist';
+const body =
+  'Trusted Senior Transition Specialists are advocates for seniors and specialize in helping families transition their aging loved ones into the senior care. We eliminate the stress of making the house ready for sale';
+const more = 'Want to see our commitment to the Senior Industry? Learn more at:';
+---
+
+<section class="moms-banner" aria-label="Senior Transition Specialist certification">
+  <a class="moms-banner-link" href={href} target="_blank" rel="noopener">
+    <picture class="moms-banner-image">
+      <source srcset="/images/moms-house-sts-banner.webp" type="image/webp" />
+      <img
+        src="/images/moms-house-sts-banner.jpg"
+        width="2100"
+        height="700"
+        loading="lazy"
+        alt={`${title}. ${body}. ${more} www.momshouse.com`}
+      />
+    </picture>
+
+    <div class="moms-banner-mobile" aria-hidden="true">
+      <picture>
+        <source srcset="/images/moms-house-sts-badge.webp" type="image/webp" />
+        <img src="/images/moms-house-sts-badge.png" width="160" height="160" alt="" loading="lazy" />
+      </picture>
+      <p class="moms-banner-title">{title}</p>
+      <p>{body}</p>
+      <p class="moms-banner-more"><em>{more} <u>www.momshouse.com</u></em></p>
+    </div>
+  </a>
+</section>
+
+<style>
+  .moms-banner { background: #b3e8e8; }
+  .moms-banner-link { display: block; color: #282828; text-decoration: none; }
+  .moms-banner-link:focus-visible { outline: 3px solid #286fb4; outline-offset: -3px; }
+  .moms-banner-image img { display: block; width: 100%; height: auto; max-width: 1600px; margin: 0 auto; }
+  .moms-banner-mobile { display: none; }
+
+  @media (max-width: 760px) {
+    .moms-banner-image { display: none; }
+    .moms-banner-mobile {
+      display: block; text-align: center; padding: 36px 20px 40px;
+      font-family: 'Avenir Next', Lato, Arial, sans-serif; line-height: 1.55;
+    }
+    .moms-banner-mobile img { width: 140px; height: 140px; margin: 0 auto 20px; }
+    .moms-banner-mobile p { margin: 0 0 14px; font-size: 1.05rem; }
+    .moms-banner-title {
+      display: inline-block; background: #fff; padding: 2px 10px;
+      font-weight: 700; font-size: 1.2rem !important;
+    }
+    .moms-banner-more { font-size: 0.98rem !important; margin-bottom: 0 !important; }
+  }
+</style>
