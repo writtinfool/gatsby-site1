@@ -17,7 +17,7 @@ When a senior client or patient faces a transition, logistical bottlenecks often
 ### ⚖️ For Elder Law & Probate Attorneys
 * **As-Is Property Liquidation:** Direct, transparent cash acquisitions for estate or trust real property requiring heavy repair, complete cleanouts, or expedited probate resolution.
 * **Fiduciary Alignment:** Clear market valuation support, non-coercive documentation, and arm's-length transaction structures meeting strict fiduciary standards.
-* **Medi-Cal Spend-Down Support:** Structured real estate solutions and bridge funding assistance to facilitate asset qualification timelines for long-term care programs.
+* **Medi-Cal Timing Coordination:** We understand the January 2026 asset-limit reinstatement ($130,000 individual / $195,000 couple), the scheduled July 1, 2027 drop to $21,000 / $31,000, and the 30-month look-back. We time property sales and bridge funding around your client's eligibility plan, and leave eligibility advice with you, and we encourage every family we meet to consult qualified elder law counsel.
 
 ### 🏢 For Senior Living Community Directors & Admissions Teams
 * **Eliminate Move-In Bottlenecks:** Overcome the single largest barrier to deposit conversion—prospects whose liquid capital is locked inside an un-renovated, clutter-filled house.
@@ -26,7 +26,7 @@ When a senior client or patient faces a transition, logistical bottlenecks often
 
 ### 🏥 For Hospital Discharge Planners, Social Workers & Case Managers
 * **Safe & Timely Discharge:** Rapid placement coordination for patients who can no longer safely return to an unsupportive home environment.
-* **Medi-Cal & Private Pay Navigation:** We work with both private-pay individuals and Medi-Cal (Medicaid) eligible clients across Northern California north of Sacramento.
+* **Medi-Cal & Private Pay Navigation:** We work with both private-pay individuals and Medi-Cal (Medicaid) eligible clients across Northern California north of Sacramento. Because the Assisted Living Waiver (ALW) is not available in most of our counties, we focus on what is: IHSS for safe aging in place, and local Board & Care and RCFE placement when 24-hour care is needed.
 * **Complete Relocation Management:** We execute rapid cleanouts, sorting, packing, and move setup so the patient transitions directly into appropriate care without delay.
 
 ---

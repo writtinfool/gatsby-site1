@@ -32,7 +32,17 @@ At **Newtree Senior Transition Services**, we guide families step-by-step throug
 Financial background should never dictate access to safe, dignified care. 
 
 * **Private Pay & Long-Term Care Insurance:** We evaluate private budgets, veteran benefits (Aid & Attendance), and policy coverages to match you with top-tier private communities.
-* **Medi-Cal & Assisted Living Waiver (ALW) Support:** We assist families qualifying for state-assisted programs, identifying communities that accept Medi-Cal vouchers or waiver allocations in Northern California.
+* **In-Home Supportive Services (IHSS):** For seniors who can remain safely at home, we help families understand how Medi-Cal's IHSS program works. IHSS provides state-funded in-home personal care in every California county and, in many cases, can pay a family member to serve as the caregiver.
+* **Licensed Board & Care and Residential Care (RCFE) Placement:** When 24-hour care is needed, we identify available local Board & Care homes, residential care facilities for the elderly (RCFEs), and memory care communities that fit both the care plan and the budget.
+* **Medi-Cal Planning Coordination:** California reinstated a Medi-Cal asset limit on January 1, 2026 ($130,000 for an individual, $195,000 for a couple), with a 30-month look-back on asset transfers. The limit is currently scheduled to drop to $21,000 for an individual ($31,000 for a couple) on July 1, 2027. We help families understand the timeline and work alongside their elder law attorney, who advises on eligibility and any transfers.
+
+---
+
+> ### 🌲 Care Options in Rural Northern California
+
+> *Care options here differ from the cities. The Medi-Cal Assisted Living Waiver (ALW) operates in only 15 California counties, and Humboldt, Del Norte, Mendocino, Lake, Shasta, and most of our region are not among them. Where it is offered, waitlists are long. That is why most local families rely on aging in place with IHSS, or on licensed Board & Care homes, and why we focus our guidance there.*
+>
+> **Every situation is different.** This is general information, not legal advice, and we are not the source for every circumstance. If you think the Medi-Cal asset rules may affect you or your family, we strongly encourage you to speak with a qualified elder law attorney before making decisions about savings, transfers, or the home.
 
 ---
 
