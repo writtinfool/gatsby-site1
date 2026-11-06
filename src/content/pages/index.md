@@ -94,7 +94,7 @@ For attorneys, social workers, case managers, and senior living care directors, 
 * **Certified Senior Transition Specialist (CSTS):** Led by Harold Ricker, bringing specialized expertise to senior housing dynamics, ethical downsizing, and real estate structuring.  
 * **Full Compliance & Transparency:** Clear disclosures of all roles, compensation structures, and buyer relationships prior to engagement.  
 * **Client-Centric Integrity:** We work at the family's pace, prioritizing safety and well-being over transactions.
-* **We Work Alongside Your Advisors:** Newtree does not provide legal, tax, or Medi-Cal eligibility advice. We coordinate with your elder law attorney, financial advisor, and care team. Program figures on this site are current as of November 2026 and can change.
+* **We Work Alongside Your Advisors:** Newtree does not provide legal, tax, or Medi-Cal eligibility advice. We coordinate with your elder law attorney, financial advisor, and care team. Program figures on this site are current as of November 2026 and can change. Every family's circumstances are different: if you think Medi-Cal asset rules may affect you, please seek advice from a qualified elder law attorney.
 
 ---
 

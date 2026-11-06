@@ -41,6 +41,8 @@ Financial background should never dictate access to safe, dignified care.
 > ### 🌲 Care Options in Rural Northern California
 
 > *Care options here differ from the cities. The Medi-Cal Assisted Living Waiver (ALW) operates in only 15 California counties, and Humboldt, Del Norte, Mendocino, Lake, Shasta, and most of our region are not among them. Where it is offered, waitlists are long. That is why most local families rely on aging in place with IHSS, or on licensed Board & Care homes, and why we focus our guidance there.*
+>
+> **Every situation is different.** This is general information, not legal advice, and we are not the source for every circumstance. If you think the Medi-Cal asset rules may affect you or your family, we strongly encourage you to speak with a qualified elder law attorney before making decisions about savings, transfers, or the home.
 
 ---
 
