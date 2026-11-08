@@ -108,7 +108,7 @@ You don't have to navigate this transition alone. Reach out today for a complime
 
 * **Phone (Toll-Free):** [(855) 496-1910](tel:8554961910)  
 * **Direct Mobile / Text:** [(707) 502-2191](tel:7075022191)  
-* **Email:** [harold@newtree-capital.net](mailto:harold@newtree-capital.net)
+* **Email:** [transitions@newtreecap.com](mailto:transitions@newtreecap.com)
 
 <!-- EMBEDDED ZOHO FORM CONTAINER: FAMILY INTAKE -->
 
