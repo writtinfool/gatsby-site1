@@ -1,6 +1,6 @@
 ---
 title: "Practical Real Estate & Liquidity Solutions | Newtree Senior Transition Services"
-description: "Direct as-is cash home purchases, bridge financing, and practical property solutions for senior transitions in Northern California."
+description: "Direct as-is cash home purchases, early advances of sale proceeds, and practical property solutions for senior transitions in Northern California."
 ---
 
 # Practical Property & Liquidity Solutions for Senior Transitions
@@ -46,11 +46,12 @@ If the house requires repairs, structural work, or modernizing—or if it is sim
 * **Fast & Guaranteed Cash Closing:** Close in as little as 7–14 days (or on whatever timeline your family requires) so senior care funds are unlocked immediately.
 * **Zero Public Showings:** Avoid open houses and constant walkthroughs by strangers.
 
-### Option B: Transition & Bridge Financing
+### Option B: Early Access to Sale Proceeds
 Wait times between deciding to move and closing a property transaction can create severe cash-flow bottlenecks for senior living deposits or monthly care fees.
 
-* **Bridge Funding Access:** Access short-term liquidity options secured by real estate equity to cover community entrance fees, deposits, or medical bills while the property transaction is finalized.
-* **Settlement Payoff:** Financed amounts are structured cleanly to be repaid directly upon settlement of the home sale.
+* **Advance on Your Sale Proceeds:** When the buyer offers it, a portion of your sale proceeds can be released early to cover community entrance fees, deposits, or medical bills while the sale is finalized. It is an advance of your own proceeds, not a new loan.
+* **Settled at Closing:** Any advance is simply deducted from your proceeds when the sale closes.
+* **Lender Referrals, When Needed:** In the rare case a loan makes sense for your family, we can refer you to licensed lenders. Newtree does not make or broker consumer loans.
 
 ### Option C: Traditional Retail Listing (For Pristine, Move-In Ready Homes)
 If the home is already fully updated, modern, staged, and ready for an immediate retail family buyer, selling on the open retail market (MLS) may yield top dollar.
