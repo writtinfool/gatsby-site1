@@ -17,11 +17,11 @@ When a senior client or patient faces a transition, logistical bottlenecks often
 ### ⚖️ For Elder Law & Probate Attorneys
 * **As-Is Property Liquidation:** Direct, transparent cash acquisitions for estate or trust real property requiring heavy repair, complete cleanouts, or expedited probate resolution.
 * **Fiduciary Alignment:** Clear market valuation support, non-coercive documentation, and arm's-length transaction structures meeting strict fiduciary standards.
-* **Medi-Cal Timing Coordination:** We understand the January 2026 asset-limit reinstatement ($130,000 individual / $195,000 couple), the scheduled July 1, 2027 drop to $21,000 / $31,000, and the 30-month look-back. We time property sales and bridge funding around your client's eligibility plan, and leave eligibility advice with you, and we encourage every family we meet to consult qualified elder law counsel.
+* **Medi-Cal Timing Coordination:** We understand the January 2026 asset-limit reinstatement ($130,000 individual / $195,000 couple), the scheduled July 1, 2027 drop to $21,000 / $31,000, and the 30-month look-back. We time property sales and closings around your client's eligibility plan, and leave eligibility advice with you, and we encourage every family we meet to consult qualified elder law counsel.
 
 ### 🏢 For Senior Living Community Directors & Admissions Teams
 * **Eliminate Move-In Bottlenecks:** Overcome the single largest barrier to deposit conversion—prospects whose liquid capital is locked inside an un-renovated, clutter-filled house.
-* **Bridge Liquidity:** Help incoming residents access short-term funds for entrance fees or initial monthly rent while real estate transactions are finalized.
+* **Fast Access to Sale Proceeds:** Our buyers have cash provided by private lenders, so closings happen in weeks rather than months, helping incoming residents cover entrance fees or initial monthly rent from their own sale proceeds, without new debt for the family.
 * **Direct Buyer Access:** We acquire the resident’s property "as-is," allowing them to move into your community in weeks rather than months.
 
 ### 🏥 For Hospital Discharge Planners, Social Workers & Case Managers

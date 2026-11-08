@@ -1,6 +1,6 @@
 ---
 title: "Practical Real Estate & Liquidity Solutions | Newtree Senior Transition Services"
-description: "Direct as-is cash home purchases, bridge financing, and practical property solutions for senior transitions in Northern California."
+description: "Direct as-is cash home purchases, fast private-lender-funded closings, and practical property solutions for senior transitions in Northern California."
 ---
 
 # Practical Property & Liquidity Solutions for Senior Transitions
@@ -20,7 +20,7 @@ At **Newtree Senior Transition Services**, we specialize in real-world property 
 │ • Requires home to be modern & move-in ready    │     │ • Buy in 100% "As-Is" condition                 │
 │ • Weeks of decluttering, repairs & staging      │     │ • Zero out-of-pocket repairs or updates         │
 │ • Disruptive public open houses & showings      │     │ • Leave behind unwanted furniture & belongings  │
-│ • Inspection contingency price drops & dropouts │     │ • Fast, guaranteed cash closing on your schedule│
+│ • Inspection contingency price drops & dropouts │     │ • Fast, dependable cash closing on your schedule│
 └─────────────────────────────────────────────────┘     └─────────────────────────────────────────────────┘
 ```
 
@@ -43,14 +43,15 @@ If the house requires repairs, structural work, or modernizing—or if it is sim
 
 * **No Repairs, Updates, or Painting:** Sell the property in its exact present condition.
 * **Leave What You Don't Want:** Take only the cherished personal items you want; our buyer network handles full cleanouts of all remaining furniture, trash, or debris.
-* **Fast & Guaranteed Cash Closing:** Close in as little as 7–14 days (or on whatever timeline your family requires) so senior care funds are unlocked immediately.
+* **Fast, Dependable Cash Closing:** Our buyers have cash provided by private lenders, so escrow can close in as little as 7–14 days with an experienced buyer, and typically within about 30 days (or on whatever timeline your family requires), so senior care funds are unlocked quickly.
 * **Zero Public Showings:** Avoid open houses and constant walkthroughs by strangers.
 
-### Option B: Transition & Bridge Financing
+### Option B: Fast Access to Your Sale Proceeds
 Wait times between deciding to move and closing a property transaction can create severe cash-flow bottlenecks for senior living deposits or monthly care fees.
 
-* **Bridge Funding Access:** Access short-term liquidity options secured by real estate equity to cover community entrance fees, deposits, or medical bills while the property transaction is finalized.
-* **Settlement Payoff:** Financed amounts are structured cleanly to be repaid directly upon settlement of the home sale.
+* **Private-Lender Speed:** Our buyers have cash provided by private lenders, not banks, so there is no long bank approval process. Closings can happen in as little as 7–14 days when the buyer is ready, and typically within about 30 days.
+* **Handled Through Escrow:** All funds, including earnest money, are held by a neutral closing agent, and your proceeds are released to you at closing.
+* **Lender Referrals, When Needed:** In the rare case a loan makes sense for your family, we can refer you to licensed lenders. Newtree does not make or broker consumer loans.
 
 ### Option C: Traditional Retail Listing (For Pristine, Move-In Ready Homes)
 If the home is already fully updated, modern, staged, and ready for an immediate retail family buyer, selling on the open retail market (MLS) may yield top dollar.

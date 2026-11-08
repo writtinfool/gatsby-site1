@@ -38,7 +38,7 @@ When aging in place is no longer safe or sustainable, navigating the physical, f
 │     Senior Living Placement     │           │   Real Estate & Capital Solutions │           │  Downsizing & Relocation Mgmt   │
 ├─────────────────────────────────┤           ├─────────────────────────────────┤           ├─────────────────────────────────┤
 │ • Private Pay & Medi-Cal Nav.   │           │ • Direct As-Is Cash Sales       │           │ • Compassionate Sorting         │
-│ • Care Needs Assessment         │           │ • Bridge & Liquidity Funding    │           │ • Estate Sales & Liquidations   │
+│ • Care Needs Assessment         │           │ • Fast Access to Sale Proceeds  │           │ • Estate Sales & Liquidations   │
 │ • Community Matching & Tours    │           │ • Selective MLS Listing Support │           │ • Full Packing & Move Setup     │
 │ • No Fee to Families            │           │ • Unlocking Home Equity Fast    │           │ • Debris & Cleanout Handling    │
 └─────────────────────────────────┘           └─────────────────────────────────┘           └─────────────────────────────────┘
@@ -62,7 +62,7 @@ Choosing a care community is about finding the exact match for medical needs, li
 Most senior-owned homes are lived-in, loved, and **not** retail move-in ready. Traditional real estate agents often struggle with properties needing heavy repair, updating, or decluttering, causing long delays on the MLS. We specialize in real-world property solutions:
 
 * **Direct "As-Is" Purchase (Primary Option):** We connect families directly with active, vetted institutional and local investors who buy properties in any condition. *No repairs, no prep, no public showings, and no need to clear out remaining contents.*  
-* **Bridge & Liquidity Financing:** If a senior needs funds for community move-in deposits or monthly care fees *before* a property transaction closes, we explore custom financing options to bridge the gap.  
+* **Fast Access to Sale Proceeds:** If a senior needs funds for community move-in deposits or monthly care fees, our buyers, who have cash provided by private lenders, can close quickly, often within a few weeks, so the sale proceeds are available for care without taking on new debt.  
 * **Traditional MLS Listing Support:** Reserved strictly for updated, turnkey homes where traditional retail marketing yields maximum value without delaying care timelines. 👉 [Explore Real Estate & Liquidity Solutions →](http:///real-estate)
 
 ### 📦 3\. Downsizing, Estate Sales & Move Management
@@ -81,9 +81,9 @@ For attorneys, social workers, case managers, and senior living care directors, 
 
 | Referral Partner | The Bottleneck You Face | How Newtree Solves It |
 | :---- | :---- | :---- |
-| **Senior Living Directors** | Prospective residents are ready for private-pay or Board & Care placement, but their capital is tied up in an un-renovated home full of personal belongings. | We acquire the home "as-is" or arrange bridge funding, freeing up capital so the resident can move into your community immediately. |
+| **Senior Living Directors** | Prospective residents are ready for private-pay or Board & Care placement, but their capital is tied up in an un-renovated home full of personal belongings. | We acquire the home "as-is" with a fast, private-lender-funded closing, freeing up capital so the resident can move into your community immediately. |
 | **Social Workers & Case Managers** | Safe discharge stalls because Assisted Living Waiver (ALW) placements are not available in most rural Northern California counties, and setting up IHSS at home feels overwhelming to families. | We help assess whether aging in place with IHSS is workable. When 24-hour care is needed, we find available local Board & Care or RCFE placements and handle home clearing and moving logistics under tight discharge timelines. |
-| **Elder Law & Probate Attorneys** | Clients face the reinstated Medi-Cal asset limit ($130,000 in 2026, scheduled to fall to $21,000 on July 1, 2027) and a 30-month look-back, while real property still needs to be resolved or care funded. | We provide direct "as-is" cash acquisition options, bridge funding, and estate liquidations, timed to your client's Medi-Cal plan and documented to satisfy fiduciary and probate requirements. |
+| **Elder Law & Probate Attorneys** | Clients face the reinstated Medi-Cal asset limit ($130,000 in 2026, scheduled to fall to $21,000 on July 1, 2027) and a 30-month look-back, while real property still needs to be resolved or care funded. | We provide direct "as-is" cash acquisition options with fast private-lender-funded closings, and estate liquidations, timed to your client's Medi-Cal plan and documented to satisfy fiduciary and probate requirements. |
 
 👉 [Visit Our Professional Partner Portal →](http:///for-professionals)
 
