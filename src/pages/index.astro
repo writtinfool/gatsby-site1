@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import MomsHouseBanner from '../components/MomsHouseBanner.astro';
+import ServiceArea from '../components/ServiceArea.astro';
 import { renderPage } from '../lib/render';
 
 const page = await renderPage('index');
@@ -13,6 +14,7 @@ const after = cut >= 0 ? page.html.slice(cut) : '';
 
 <Base title={page.title} description={page.description} slug={page.slug}>
   <Fragment set:html={before} />
+  <ServiceArea />
   <MomsHouseBanner />
   <Fragment set:html={after} />
 </Base>

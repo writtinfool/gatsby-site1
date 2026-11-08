@@ -1,0 +1,108 @@
+---
+import { townsByCounty, extendedByBand } from '../lib/serviceArea';
+import { site } from '../config/site';
+
+const groups = townsByCounty();
+const bands = extendedByBand();
+const total = groups.reduce((n, g) => n + g.towns.length, 0);
+---
+
+<section class="block service-area" id="service-area" aria-labelledby="service-area-title">
+  <div class="container">
+    <h2 id="service-area-title">Communities We Serve</h2>
+    <p class="sa-intro">
+      Based in Eureka, we serve seniors and families within about two hours' drive: Humboldt and Del Norte
+      counties, plus nearby communities in Trinity and Mendocino counties.
+    </p>
+
+    <div class="sa-grid">
+      <figure class="sa-map">
+        <a href="/images/service-area-2hr.jpg" target="_blank" rel="noopener" aria-label="Open the full-size service area map">
+          <picture>
+            <source type="image/webp" srcset="/images/service-area-2hr-720.webp 720w, /images/service-area-2hr.webp 1200w" sizes="(max-width: 860px) 100vw, 460px" />
+            <img src="/images/service-area-2hr-720.jpg" srcset="/images/service-area-2hr-720.jpg 720w, /images/service-area-2hr.jpg 1200w"
+              sizes="(max-width: 860px) 100vw, 460px" width="720" height="1230" loading="lazy"
+              alt="Map of drive times from Eureka, California, in half-hour bands, reaching about two hours to Smith River and Gasquet in the north, Weaverville in the east, and Laytonville and Shelter Cove in the south." />
+          </picture>
+        </a>
+        <figcaption>Tap the map to enlarge. Drive times are estimates without traffic.</figcaption>
+      </figure>
+
+      <div class="sa-lists">
+        {groups.map((g) => (
+          <div class="sa-county">
+            <h3>{g.county} <span>{g.towns.length} {g.towns.length === 1 ? 'community' : 'communities'}</span></h3>
+            <ul>
+              {g.towns.map((t) => (
+                <li><span class="sa-town">{t.town}</span> <span class="sa-time">{t.time}</span></li>
+              ))}
+            </ul>
+          </div>
+        ))}
+        <p class="sa-note">
+          Don't see your town? Call <a href={site.phoneTollFree.href}>{site.phoneTollFree.label}</a>. We may still be able to help.
+        </p>
+      </div>
+    </div>
+
+    <div class="sa-ext">
+      <h3 class="sa-ext-title">Extended Service Area</h3>
+      <p class="sa-intro">
+        Beyond our local communities, we also help families and referral partners across Northern California,
+        up to about seven hours from Eureka. Call to talk through your situation.
+      </p>
+      <div class="sa-grid">
+        <figure class="sa-map">
+          <a href="/images/drive-times-norcal.jpg" target="_blank" rel="noopener" aria-label="Open the full-size Northern California drive-time map">
+            <picture>
+              <source type="image/webp" srcset="/images/drive-times-norcal.webp" />
+              <img src="/images/drive-times-norcal.jpg" width="1200" height="1420" loading="lazy"
+                alt="Map of drive times from Eureka across Northern California in one-hour bands, from under 1 hour on the coast to 6 to 7 hours at Lake Tahoe and Monterey." />
+            </picture>
+          </a>
+          <figcaption>Tap the map to enlarge. Drive times are estimates without traffic.</figcaption>
+        </figure>
+        <div class="sa-lists">
+          {bands.map((b) => (
+            <div class="sa-county">
+              <h4>{b.label} from Eureka</h4>
+              <ul>
+                {b.towns.map((t) => (
+                  <li><span class="sa-town">{t.town}{t.state !== 'CA' ? `, ${t.state}` : ''} <small>{t.county}</small></span> <span class="sa-time">{t.time}</span></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .sa-intro { max-width: 70ch; }
+  .sa-grid { display: grid; grid-template-columns: minmax(0, 460px) minmax(0, 1fr); gap: 40px; margin-top: 32px; align-items: start; }
+  .sa-map { margin: 0; position: sticky; top: 96px; }
+  .sa-map img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow-sm); background: #fff; }
+  .sa-map figcaption { font-size: 0.85rem; color: var(--ink-soft); margin-top: 8px; }
+  .sa-county { margin-bottom: 26px; }
+  .sa-county h3 { font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .sa-county h3 span { font-family: var(--font-sans); font-size: 0.8rem; font-weight: 600; color: var(--ink-soft); letter-spacing: 0.02em; }
+  .sa-county ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 18px; }
+  .sa-county li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 0.98rem; }
+  .sa-time { color: var(--ink-soft); font-size: 0.85rem; white-space: nowrap; }
+  .sa-note { margin-top: 8px; font-size: 1rem; }
+  .sa-ext { margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--line); }
+  .sa-ext-title { font-size: clamp(1.3rem, 1.1rem + 0.7vw, 1.65rem); }
+  .sa-county h4 { font-size: 1.05rem; margin: 0 0 8px; color: var(--green-800); }
+  .sa-town small { display: block; font-size: 0.78rem; color: var(--ink-soft); font-weight: 400; }
+  @media (max-width: 860px) {
+    .sa-grid { grid-template-columns: 1fr; }
+    .sa-map { position: static; max-width: 520px; margin: 0 auto; }
+  }
+  @media (max-width: 600px) {
+    .sa-county ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 14px; }
+    .sa-county li { flex-direction: column; gap: 0; padding: 6px 0; }
+    .sa-time { font-size: 0.8rem; }
+  }
+</style>

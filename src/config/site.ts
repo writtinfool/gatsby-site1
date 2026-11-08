@@ -10,7 +10,10 @@ export const site = {
   url: 'https://transitions.newtreecap.com',
   phoneTollFree: { label: '(855) 496-1910', href: 'tel:+18554961910' },
   phoneMobile: { label: '(707) 502-2191', href: 'tel:+17075022191' },
-  email: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },
+  // Families and general inquiries
+  email: { label: 'transitions@newtreecap.com', href: 'mailto:transitions@newtreecap.com' },
+  // Referral partners (shown on the For Professionals page and in the footer)
+  emailProfessional: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },
   address: {
     street: '3824 Jacobs Ave. Spc 27',
     city: 'Eureka',
