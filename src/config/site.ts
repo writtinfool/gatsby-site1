@@ -17,7 +17,7 @@ export const site = {
   // "Schedule a Free Consultation" buttons. Swap href for the Calendly link when ready.
   scheduler: {
     label: 'Schedule a Free Consultation',
-    href: 'https://www.newtree-capital.net/my-meeting-sheduler/',
+    href: 'https://www.newtree-capital.net/my-meeting-scheduler/',
   },
   address: {
     street: '3824 Jacobs Ave. Spc 27',
