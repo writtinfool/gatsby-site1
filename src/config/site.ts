@@ -14,6 +14,11 @@ export const site = {
   email: { label: 'transitions@newtreecap.com', href: 'mailto:transitions@newtreecap.com' },
   // Referral partners (shown on the For Professionals page and in the footer)
   emailProfessional: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },
+  // "Schedule a Free Consultation" buttons. Swap href for the Calendly link when ready.
+  scheduler: {
+    label: 'Schedule a Free Consultation',
+    href: 'https://www.newtree-capital.net/my-meeting-scheduler/',
+  },
   address: {
     street: '3824 Jacobs Ave. Spc 27',
     city: 'Eureka',
