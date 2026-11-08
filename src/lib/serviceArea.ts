@@ -41,3 +41,23 @@ export function townsByCounty() {
     towns: towns.filter((t) => t.county === county).sort((a, b) => a.minutes - b.minutes || a.town.localeCompare(b.town)),
   }));
 }
+
+export interface ExtTown { town: string; county: string; state: string; time: string; minutes: number }
+
+/** Extended service area (src/data/extended-area.csv), grouped into the map's 1-hour bands. */
+export function extendedByBand() {
+  const raw = fs.readFileSync(path.join(process.cwd(), 'src', 'data', 'extended-area.csv'), 'utf8');
+  const towns: ExtTown[] = raw.split(/\r?\n/).slice(1).filter((l) => l.trim()).map((l) => {
+    const [town, county, state, time] = parseCsvLine(l);
+    return { town, county, state, time, minutes: toMinutes(time) };
+  }).sort((a, b) => a.minutes - b.minutes);
+  const bands: { label: string; towns: ExtTown[] }[] = [];
+  for (const t of towns) {
+    const h = Math.min(Math.floor(t.minutes / 60), 6);
+    const label = `${h} to ${h + 1} hr`;
+    let b = bands.find((x) => x.label === label);
+    if (!b) bands.push((b = { label, towns: [] }));
+    b.towns.push(t);
+  }
+  return bands;
+}
