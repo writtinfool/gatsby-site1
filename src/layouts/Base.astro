@@ -3,6 +3,7 @@ import '@fontsource-variable/inter';
 import '@fontsource-variable/lexend';
 import '../styles/global.css';
 import { site, nav } from '../config/site';
+import { townsByCounty } from '../lib/serviceArea';
 
 interface Props {
   title: string;
@@ -38,7 +39,10 @@ const year = new Date().getFullYear();
       url: site.url,
       telephone: '+1-855-496-1910',
       email: site.email.label,
-      areaServed: 'Northern California',
+      areaServed: [
+        ...townsByCounty().map((g) => ({ '@type': 'AdministrativeArea', name: `${g.county}, CA` })),
+        ...townsByCounty().flatMap((g) => g.towns.map((t) => ({ '@type': 'City', name: `${t.town}, CA` }))),
+      ],
       address: {
         '@type': 'PostalAddress',
         streetAddress: site.address.street,
