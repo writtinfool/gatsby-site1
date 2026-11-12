@@ -3,7 +3,7 @@
 
 export const site = {
   name: 'Newtree Senior Transition Services',
-  shortName: 'Newtree Senior Transitions',
+  shortName: 'Newtree Senior Transition',
   tagline: 'Services',
   region: 'Northern California',
   // Set this to the production domain once it is known (used for canonical URLs).
@@ -12,8 +12,6 @@ export const site = {
   phoneMobile: { label: '(707) 502-2191', href: 'tel:+17075022191' },
   // Families and general inquiries
   email: { label: 'transitions@newtreecap.com', href: 'mailto:transitions@newtreecap.com' },
-  // Referral partners (shown on the For Professionals page and in the footer)
-  emailProfessional: { label: 'harold@newtree-capital.net', href: 'mailto:harold@newtree-capital.net' },
   // "Schedule a Free Consultation" buttons. Swap href for the Calendly link when ready.
   scheduler: {
     label: 'Schedule a Free Consultation',
@@ -35,6 +33,7 @@ export const nav = [
   { slug: 'real-estate', href: '/real-estate', label: 'Real Estate & Liquidity' },
   { slug: 'downsizing', href: '/downsizing', label: 'Downsizing & Relocation' },
   { slug: 'for-professionals', href: '/for-professionals', label: 'For Professionals' },
+  { slug: 'about', href: '/about', label: 'About' },
 ] as const;
 
 // Zoho Forms embeds. Each key is the container id from the markdown

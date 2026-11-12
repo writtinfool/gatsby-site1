@@ -48,30 +48,30 @@ When aging in place is no longer safe or sustainable, navigating the physical, f
 
 ## Services Overview
 
-### 🏡 1\. Senior Living Placement & Navigation
+### 1\. Senior Living Placement & Navigation
 
 Choosing a care community is about finding the exact match for medical needs, lifestyle, budget, and location.
 
 * **Comprehensive Guidance:** We guide families to reputable local assisted living, memory care, board-and-care homes, and skilled nursing facilities.  
 * **Private Pay & Medi-Cal Support:** Whether navigating private funds, long-term care insurance, or Medi-Cal placement programs, we help families find appropriate options.  
 * **Streamlined Process:** We organize tours, compile paperwork, and facilitate communication between families and admissions teams.  
-* **No Fee to Families:** Placement advisory services are provided at no cost to the senior or their family. 👉 [Learn More About Senior Placement Services →](http:///placement)
+* **No Fee to Families:** Placement advisory services are provided at no cost to the senior or their family. [Learn More About Senior Placement Services →](http:///placement)
 
-### 🔑 2\. Real Estate & Capital Solutions (As-Is Focus)
+### 2\. Real Estate & Capital Solutions (As-Is Focus)
 
 Most senior-owned homes are lived-in, loved, and **not** retail move-in ready. Traditional real estate agents often struggle with properties needing heavy repair, updating, or decluttering, causing long delays on the MLS. We specialize in real-world property solutions:
 
 * **Direct "As-Is" Purchase (Primary Option):** We connect families directly with active, vetted institutional and local investors who buy properties in any condition. *No repairs, no prep, no public showings, and no need to clear out remaining contents.*  
 * **Fast Access to Sale Proceeds:** If a senior needs funds for community move-in deposits or monthly care fees, our buyers, who have cash provided by private lenders, can close quickly, often within a few weeks, so the sale proceeds are available for care without taking on new debt.  
-* **Traditional MLS Listing Support:** Reserved strictly for updated, turnkey homes where traditional retail marketing yields maximum value without delaying care timelines. 👉 [Explore Real Estate & Liquidity Solutions →](http:///real-estate)
+* **Traditional MLS Listing Support:** Reserved strictly for updated, turnkey homes where traditional retail marketing yields maximum value without delaying care timelines. [Explore Real Estate & Liquidity Solutions →](http:///real-estate)
 
-### 📦 3\. Downsizing, Estate Sales & Move Management
+### 3\. Downsizing, Estate Sales & Move Management
 
 Clearing a home of 30 to 50 years of accumulated belongings is often the biggest bottleneck in a senior transition.
 
 * **Sorting & Inventorying:** Patient, respectful assistance deciding what to keep, gift, sell, or donate.  
 * **Liquidation Services:** Managing estate sales or buyouts for valuable items to offset move costs.  
-* **Turnkey Relocation:** Coordinating packing, transportation, unpacking, and setting up the new living space to feel like home on day one. 👉 [Explore Downsizing & Move Management →](http:///downsizing)
+* **Turnkey Relocation:** Coordinating packing, transportation, unpacking, and setting up the new living space to feel like home on day one. [Explore Downsizing & Move Management →](http:///downsizing)
 
 ---
 
@@ -85,7 +85,17 @@ For attorneys, social workers, case managers, and senior living care directors, 
 | **Social Workers & Case Managers** | Safe discharge stalls because Assisted Living Waiver (ALW) placements are not available in most rural Northern California counties, and setting up IHSS at home feels overwhelming to families. | We help assess whether aging in place with IHSS is workable. When 24-hour care is needed, we find available local Board & Care or RCFE placements and handle home clearing and moving logistics under tight discharge timelines. |
 | **Elder Law & Probate Attorneys** | Clients face the reinstated Medi-Cal asset limit ($130,000 in 2026, scheduled to fall to $21,000 on July 1, 2027) and a 30-month look-back, while real property still needs to be resolved or care funded. | We provide direct "as-is" cash acquisition options with fast private-lender-funded closings, and estate liquidations, timed to your client's Medi-Cal plan and documented to satisfy fiduciary and probate requirements. |
 
-👉 [Visit Our Professional Partner Portal →](http:///for-professionals)
+[Visit Our Professional Partner Portal →](http:///for-professionals)
+
+---
+
+## Meet Harold Ricker
+
+<picture class="bio-photo"><source srcset="/images/harold-ricker.webp" type="image/webp" /><img src="/images/harold-ricker.jpg" width="405" height="400" alt="Harold Ricker" /></picture>
+
+I've spent my life caring for people and for land. I spent 25 years in forestry and land management and 11 years with Humboldt County social services supporting Adult Protective Services and senior programs. I've also been a caregiver to friends at home for many years, and I still am today. Now I bring that experience, along with real estate and private lending, to help families through one of life's hardest moves.
+
+[Read Harold's Story →](/about)
 
 ---
 

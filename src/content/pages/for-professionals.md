@@ -63,7 +63,7 @@ We respect your professional relationships and operate with complete transparenc
 
 * **Dedicated Partner Referral Line:** [(855) 496-1910](tel:8554961910)
 * **Direct Mobile / Text:** [(707) 502-2191](tel:7075022191)
-* **Professional Email:** [harold@newtree-capital.net](mailto:harold@newtree-capital.net)
+* **Email:** [transitions@newtreecap.com](mailto:transitions@newtreecap.com)
 
 <!-- EMBEDDED ZOHO FORM CONTAINER: B2B PROFESSIONAL REFERRAL -->
 <div id="zoho-b2b-referral-form">
