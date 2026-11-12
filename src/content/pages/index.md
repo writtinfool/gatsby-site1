@@ -89,6 +89,16 @@ For attorneys, social workers, case managers, and senior living care directors, 
 
 ---
 
+## Meet Harold Ricker
+
+<picture class="bio-photo"><source srcset="/images/harold-ricker.webp" type="image/webp" /><img src="/images/harold-ricker.jpg" width="405" height="400" alt="Harold Ricker" /></picture>
+
+I've spent my life caring for people and for land. I spent 25 years in forestry and land management and 11 years with Humboldt County social services supporting Adult Protective Services and senior programs. I've also been a caregiver to friends at home for many years, and I still am today. Now I bring that experience, along with real estate and private lending, to help families through one of life's hardest moves.
+
+[Read Harold's Story →](/about)
+
+---
+
 ## Professional Standards & Credentials
 
 * **Certified Senior Transition Specialist (CSTS):** Led by Harold Ricker, bringing specialized expertise to senior housing dynamics, ethical downsizing, and real estate structuring.  

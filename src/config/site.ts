@@ -33,6 +33,7 @@ export const nav = [
   { slug: 'real-estate', href: '/real-estate', label: 'Real Estate & Liquidity' },
   { slug: 'downsizing', href: '/downsizing', label: 'Downsizing & Relocation' },
   { slug: 'for-professionals', href: '/for-professionals', label: 'For Professionals' },
+  { slug: 'about', href: '/about', label: 'About' },
 ] as const;
 
 // Zoho Forms embeds. Each key is the container id from the markdown

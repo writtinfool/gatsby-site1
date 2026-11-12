@@ -519,3 +519,15 @@ a.cta-link:hover { background: var(--green-700); color: #fff; transform: transla
 .btn-schedule-contact { background: var(--green-800); color: #fff; font-size: 1.05rem; padding: 0.95em 1.5em; }
 .btn-schedule-contact:hover { background: var(--green-900); color: #fff; }
 .btn-schedule-contact svg, .btn-schedule svg { width: 1.05em; height: 1.05em; }
+
+/* Bio headshot (About page and home "Meet Harold") */
+.bio-photo { float: left; margin: 6px 36px 20px 0; }
+.bio-photo img {
+  display: block; width: 220px; height: 220px; object-fit: cover; border-radius: 50%;
+  border: 4px solid var(--white); box-shadow: 0 0 0 3px var(--gold-500), var(--shadow);
+}
+.block .container:has(> .bio-photo)::after { content: ''; display: block; clear: both; }
+@media (max-width: 640px) {
+  .bio-photo { float: none; display: block; margin: 0 auto 24px; width: fit-content; }
+  .bio-photo img { width: 180px; height: 180px; }
+}
