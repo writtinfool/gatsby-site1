@@ -239,8 +239,9 @@ function rehypeNewtreeLayout() {
       }
       if (n.tagName === 'p') {
         const kids = n.children.filter((c: Node) => !isBlank(c));
-        // "👉 [Link →](...)" on its own line
-        if (kids.length === 2 && kids[0].type === 'text' && isEl(kids[1], 'a') && EMOJI_LEAD.test(kids[0].value)) {
+        // "[Link →](/page)" (optionally led by an emoji) on its own line
+        const ctaOnly = kids.length === 1 && isEl(kids[0], 'a') && String(kids[0].properties?.href || '').startsWith('/');
+        if (ctaOnly || (kids.length === 2 && kids[0].type === 'text' && isEl(kids[1], 'a') && EMOJI_LEAD.test(kids[0].value))) {
           addClass(n, 'cta-row');
         }
         if (toString(n).trim() === ' ') addClass(n, 'spacer');
