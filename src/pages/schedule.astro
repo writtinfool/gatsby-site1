@@ -1,0 +1,39 @@
+---
+// Booking page. The HubSpot calendar loads from HubSpot's embed script; if it
+// cannot load, the fallback link and phone numbers below still work.
+import Base from '../layouts/Base.astro';
+import { site } from '../config/site';
+
+const embedSrc = `${site.scheduler.bookingUrl}?embed=true`;
+---
+
+<Base
+  title={`Schedule a Free Consultation | ${site.name}`}
+  description="Book a complimentary, confidential consultation with Harold Ricker, Certified Senior Transition Specialist."
+  slug="schedule"
+>
+  <section class="block hero">
+    <div class="container hero-inner">
+      <h1>Schedule a Free Consultation</h1>
+      <h2>Pick a time that works for you. The conversation is complimentary and confidential.</h2>
+    </div>
+  </section>
+
+  <section class="block tone-a schedule">
+    <div class="container">
+      <div class="meetings-iframe-container" data-src={embedSrc}></div>
+      <p class="schedule-fallback">
+        Calendar not showing? <a href={site.scheduler.bookingUrl} target="_blank" rel="noopener">Open the scheduler in a new tab</a>,
+        or call <a href={site.phoneTollFree.href}>{site.phoneTollFree.label}</a> or
+        text <a href={site.phoneMobile.href}>{site.phoneMobile.label}</a>.
+      </p>
+    </div>
+  </section>
+
+  <script is:inline type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+</Base>
+
+<style>
+  .schedule .meetings-iframe-container { min-height: 680px; }
+  .schedule-fallback { margin-top: 24px; text-align: center; color: var(--ink-soft); }
+</style>

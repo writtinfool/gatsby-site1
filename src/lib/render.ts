@@ -288,7 +288,7 @@ function rehypeNewtreeLayout() {
             h('div.container.hero-inner', [
               ...onPhoto,
               h('div.hero-actions', [
-                h('a.btn.btn-hero.btn-schedule', { href: site.scheduler.href, target: '_blank', rel: 'noopener' }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm12 8v10H5V10h14Zm-9 2H7v3h3v-3Z' })]), site.scheduler.label]),
+                h('a.btn.btn-hero.btn-schedule', { href: site.scheduler.href }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm12 8v10H5V10h14Zm-9 2H7v3h3v-3Z' })]), site.scheduler.label]),
               h('a.btn.btn-hero.btn-hero-call', { href: site.phoneTollFree.href }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z' })]), site.phoneTollFree.label]),
               ]),
             ]),
@@ -316,7 +316,7 @@ function rehypeNewtreeLayout() {
               h(`div.contact-card${formReady ? '.with-form' : ''}`, [
                 h('div.contact-main', [
                   ...main,
-                  h('p.contact-schedule', [h('a.btn.btn-schedule-contact', { href: site.scheduler.href, target: '_blank', rel: 'noopener' }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm12 8v10H5V10h14Zm-9 2H7v3h3v-3Z' })]), site.scheduler.label])]),
+                  h('p.contact-schedule', [h('a.btn.btn-schedule-contact', { href: site.scheduler.href }, [h('svg', { viewBox: '0 0 24 24', ariaHidden: 'true' }, [h('path', { fill: 'currentColor', d: 'M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm12 8v10H5V10h14Zm-9 2H7v3h3v-3Z' })]), site.scheduler.label])]),
                 ]),
                 h('div.contact-form', formSlots),
               ]),
