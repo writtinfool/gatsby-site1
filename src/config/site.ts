@@ -12,10 +12,12 @@ export const site = {
   phoneMobile: { label: '(707) 502-2191', href: 'tel:+17075022191' },
   // Families and general inquiries
   email: { label: 'transitions@newtreecap.com', href: 'mailto:transitions@newtreecap.com' },
-  // "Schedule a Free Consultation" buttons. Swap href for the Calendly link when ready.
+  // "Schedule a Free Consultation" buttons go to /schedule, which embeds the
+  // HubSpot booking calendar below.
   scheduler: {
     label: 'Schedule a Free Consultation',
-    href: 'https://www.newtree-capital.net/my-meeting-sheduler/', // page slug is spelled "sheduler" on the main site
+    href: '/schedule',
+    bookingUrl: 'https://meetings-na2.hubspot.com/harold-ricker',
   },
   address: {
     street: '3824 Jacobs Ave. Spc 27',
